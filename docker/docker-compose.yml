@@ -14,8 +14,3 @@ networks:
   txto_net:
     external: false
     name: txto_net
-
-volumes:
-  gf_volume:
-    name: gf_volume
-    driver: local
