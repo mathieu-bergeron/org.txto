@@ -7,8 +7,7 @@ services:
       context: gf
     networks:
       - txto_net
-    volumes:
-      - gf_volume
+
 
 networks:
   txto_net:
