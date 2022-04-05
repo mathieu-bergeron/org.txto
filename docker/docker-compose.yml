@@ -7,7 +7,8 @@ services:
       context: gf
     networks:
       - txto_net
-
+    volumes:
+      - ../src/gf:/src/gf:rw
 
 networks:
   txto_net:
@@ -17,3 +18,4 @@ networks:
 volumes:
   gf_volume:
     name: gf_volume
+    driver: local
