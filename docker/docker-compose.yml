@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  gf:
+    container_name: gf
+    build:
+      context: gf
+    networks:
+      - txto_net
+    volumes:
+      - gf_volume
+
+networks:
+  txto_net:
+    external: false
+    name: txto_net
+
+volumes:
+  gf_volume:
+    name: gf_volume
