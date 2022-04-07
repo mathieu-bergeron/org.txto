@@ -1,18 +1,9 @@
-#########
-# BUILD #
-#########	
-FROM alpine:3.13 as build
-
-RUN apk update
+FROM ubuntu:18.04
 
 
-#######
-# RUN #
-#######
-FROM alpine:3.13
+COPY      ./gf-3.11-ubuntu-18.04.deb /gf-3.11-ubuntu-18.04.deb 
 
-RUN apk update
+WORKDIR   /
+RUN       apt-get install ./gf-3.11-ubuntu-18.04.deb
 
-# TMP: replace by running GF?
 CMD tail -f /dev/null
-
