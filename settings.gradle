@@ -1,4 +1,4 @@
-rootProject.name = 'ca.ntro.cards'
+rootProject.name = 'org.txto'
 
 include 'ntro_core'
 project(':ntro_core').projectDir = file('ntro/ntro_core')
@@ -15,10 +15,8 @@ project(':ntro_app_jdk').projectDir = file('ntro/ntro_app_jdk')
 include 'ntro_app_fx'
 project(':ntro_app_fx').projectDir = file('ntro/ntro_app_fx')
 
-include 'cards_common'
-include 'cards_playground'
-include 'cards_list'
-include 'cards_map'
+include 'txto_common'
+include 'txto_prototype'
 
 buildscript {
     repositories {

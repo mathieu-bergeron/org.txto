@@ -9,7 +9,7 @@ dependencies {
         implementation project(":ntro_${it}")
     }
 
-    implementation project(':cards_common')
+    implementation project(':txto_common')
 }
 
 def commonConfig = {
