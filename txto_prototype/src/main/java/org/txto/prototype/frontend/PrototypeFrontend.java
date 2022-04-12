@@ -1,11 +1,11 @@
-package org.txto.playground.frontend;
+package org.txto.prototype.frontend;
 
 import ca.ntro.app.frontend.FrontendFx;
 import ca.ntro.app.frontend.ViewRegistrarFx;
 import ca.ntro.app.frontend.events.EventRegistrar;
 import ca.ntro.app.tasks.frontend.FrontendTasks;
 import org.txto.CommonRegistrar;
-import org.txto.playground.frontend.views.PlaygroundRootView;
+import org.txto.prototype.frontend.views.PlaygroundRootView;
 
 public class PrototypeFrontend implements FrontendFx {
 

@@ -1,4 +1,4 @@
-package org.txto.playground;
+package org.txto.prototype;
 
 import ca.ntro.app.NtroClientFx;
 import ca.ntro.app.backend.BackendRegistrar;

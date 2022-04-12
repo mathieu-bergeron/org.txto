@@ -1,4 +1,4 @@
-package org.txto.playground.frontend.views;
+package org.txto.prototype.frontend.views;
 
 import org.txto.frontend.views.RootView;
 
