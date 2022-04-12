@@ -6,11 +6,11 @@ import ca.ntro.app.frontend.FrontendRegistrarFx;
 import ca.ntro.app.messages.MessageRegistrar;
 import ca.ntro.app.models.ModelRegistrar;
 
-public class PlaygroundLocalApp implements NtroClientFx {
+public class PrototypeLocalApp implements NtroClientFx {
 
 	@Override
 	public void registerModels(ModelRegistrar registrar) {
-		PlaygroundRegistrar.registerModels(registrar);
+		PrototypeRegistrar.registerModels(registrar);
 	}
 
 	@Override
