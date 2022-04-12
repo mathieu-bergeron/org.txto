@@ -1,3 +1,8 @@
+# init
+scripts/ntro.git
+ntro
+buildSrc
+
 # Java
 *.class
 
@@ -27,6 +32,19 @@ bin
 .idea
 *.iml
 
+# JSweet
+.jsweet
+_jsweet
+
+# Tests
+build_*
+
 # MAC_OS
 .DS_Store
+
+# Vertx file uploads
+file-uploads
+
+# _storage
+_storage
 
